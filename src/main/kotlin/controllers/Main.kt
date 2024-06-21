@@ -1,9 +1,12 @@
 package org.example.controllers
 
-fun main() {
-    //TODO or not TODO That's the question :-)
-    print("Don't  worry be JAVI")
-    print("Print no conflict")
+fun main() {// Ejemplo de uso
+    val dni = "12345678Z"
+    if (validarDNI(dni)) {
+        println("El DNI $dni es válido.")
+    } else {
+        println("El DNI $dni no es válido.")
+    }
 }
 
 fun validarDNI(dni: String): Boolean {
@@ -14,4 +17,4 @@ fun validarDNI(dni: String): Boolean {
     val letraCalculada = letras[numero % 23]
     return letra == letraCalculada
 }
- //toma castanya
+
