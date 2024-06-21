@@ -17,4 +17,3 @@ fun validarDNI(dni: String): Boolean {
     val letraCalculada = letras[numero % 23]
     return letra == letraCalculada
 }
-
