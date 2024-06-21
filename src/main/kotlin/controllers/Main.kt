@@ -1,5 +1,5 @@
 package org.example.controllers
 
 fun main() {
-    //TODO
+    print("Hello people!! It's me!!")
 }
