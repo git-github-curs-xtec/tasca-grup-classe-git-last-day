@@ -15,3 +15,4 @@ fun validarDNI(dni: String): Boolean {
     return letra == letraCalculada
 }
  //toma castanya
+ // comentari branca nova
