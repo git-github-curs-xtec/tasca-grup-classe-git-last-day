@@ -1,6 +1,6 @@
 package org.example.controllers
 
-fun main() {// Ejemplo de uso
+fun main() {// Ejemplo de uso de comentario conflict
     val dni = "12345678Z"
     if (validarDNI(dni)) {
         println("El DNI $dni es válido.")
